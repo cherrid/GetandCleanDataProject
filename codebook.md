@@ -3,7 +3,7 @@ The tidy_data table that results from running run_analysis.R contains a subset o
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 The tidy data represents average measurements of different variables for 1 - 30 test subjects, 
-performing 1-6 activities (e.g. "WALKING", "LAYING")
+performing 6 different activities (e.g. "WALKING", "LAYING")
 
 ### Background
 For the full background on how the data was collected and measured, see the README.txt and features_info.txt
@@ -113,6 +113,6 @@ As a quick guide, a variable name is constructed of:
 * "f" for frequency measurement
 * "t" for time measurement
 * a name of what is being measured, e.g. bodyacc -> body acceleration
-* the summary function applied, e.g. mean, std [Note the values are all means in tidy_data]
+* the summary function applied to the original measurement, e.g. mean, std
 * the axis the measurement was taken on, e.g. "x", "y" or "z"
 All values were normalised in the source, prior to being analysed here.
